@@ -1,0 +1,27 @@
+html
+  {
+    background-image: url("https://moviehole.net/img/matrix-code-wallpaper-1.jpg")
+  }
+
+@font-face
+  {
+      font-family: 'matrixmedium', sans-serif, arial;
+      src: url('matrix-webfont.woff2') format('woff2'),
+           url('matrix-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+h2, h1
+    {
+      color: white;
+      text-align: center;
+    }
+
+
+#choice
+  {
+     display: block;
+	   margin-left: auto;
+	   margin-right: auto;
+  }
