@@ -1,40 +1,39 @@
-html
+body
   {
-    background-image: url("https://moviehole.net/img/matrix-code-wallpaper-1.jpg")
+    background-image: url("./bg.jpg");
+    background-size: cover;
   }
 
-@font-face
+.first
   {
-      font-family: 'matrixmedium', sans-serif, arial;
-      src: url('matrix-webfont.woff2') format('woff2'),
-           url('matrix-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("http://i.imgur.com/9VV5LB3.gif");
+    width: 572px;
+    height: 322px;
   }
 
-h2, h1
-    {
-      color: white;
-      text-align: center;
-    }
-
-
-    .pulse h2:hover{
-      animation: pulse 1s infinite;
-      animation-timing-function: linear;
-
-    }
-
-    @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.1);
-      100% { transform: scale(1); }
-      }
-    }
-
-#choice
+.first:hover
   {
-     display: block;
-	   margin-left: auto;
-	   margin-right: auto;
+      width: 572px;
+      height: 322px;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url("./github.jpg");
+      background-repeat: no-repeat;
+  }
+
+.link
+{
+  display: flex;
+  width: 572px;
+  height: 322px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2
+  {
+    text-align: center;
   }
